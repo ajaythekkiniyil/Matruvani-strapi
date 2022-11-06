@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "old_editions",
+  "info": {
+    "singularName": "old-edition",
+    "pluralName": "old-editions",
+    "displayName": "OldEdition"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bookTitle": {
+      "type": "string"
+    },
+    "bookVolume": {
+      "type": "string"
+    },
+    "bookLanguage": {
+      "type": "string"
+    },
+    "bookPrice": {
+      "type": "float"
+    },
+    "coverImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
